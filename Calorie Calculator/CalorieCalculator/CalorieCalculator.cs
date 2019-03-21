@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace CalorieCalculator
 {
-    static class CalorieCalculator
+    static class CalorieCalculatorStart
     {
         /// <summary>
         /// The main entry point for the application.
@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new KalkulatorKalorii());
+            Application.Run(new CalorieCalculator());
         }
     }
 }

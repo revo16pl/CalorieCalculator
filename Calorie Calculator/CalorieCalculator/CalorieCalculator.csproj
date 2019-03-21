@@ -45,11 +45,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BasicWindow.cs">
+    <Compile Include="Calculations.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BasicWindow.Designer.cs">
-      <DependentUpon>BasicWindow.cs</DependentUpon>
+    <Compile Include="MainWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindow.Designer.cs">
+      <DependentUpon>MainWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="BodyFatWindow.cs">
       <SubType>Form</SubType>
@@ -58,9 +61,12 @@
       <DependentUpon>BodyFatWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="CalorieCalculator.cs" />
+    <Compile Include="Tooltips.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="BasicWindow.resx">
-      <DependentUpon>BasicWindow.cs</DependentUpon>
+    <EmbeddedResource Include="MainWindow.resx">
+      <DependentUpon>MainWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BodyFatWindow.resx">
       <DependentUpon>BodyFatWindow.cs</DependentUpon>
